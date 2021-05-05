@@ -10,11 +10,53 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
-    <title>Document</title>
+    <title>Bootstrap - Alinhamento de Textos</title>
 
 </head>
 
-<body>
+<body style="margin-bottom: 200px; padding: 16px;">
+
+    <!-- Parágrafo Justificado -->
+    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nostrum possimus maiores sit dolorum voluptate maxime laborum rem. Minus, ipsam nulla. Saepe harum quo sequi id nesciunt fuga, quaerat dolor! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nostrum possimus maiores sit dolorum voluptate maxime laborum rem. Minus, ipsam nulla. Saepe harum quo sequi id nesciunt fuga, quaerat dolor! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nostrum possimus maiores sit dolorum voluptate maxime laborum rem. Minus, ipsam nulla. Saepe harum quo sequi id nesciunt fuga, quaerat dolor! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nostrum possimus maiores sit dolorum voluptate maxime laborum rem. Minus, ipsam nulla. Saepe harum quo sequi id nesciunt fuga, quaerat dolor!
+    </p>
+
+    <br><br>
+
+    <!-- Alinhamento responsivo - text-<tela>-<alinhamento>
+            tela: sm, md, lg, xl
+            alinhamento: left, center, right
+        para ver o que acontece é só ir diminuindo a página se a mesma estiver toda aberta
+    -->
+    <p class="text-sm-right"> tela &gt;= 576</p> <!--Small-->
+    <p class="text-md-right"> tela &gt;= 768</p> <!--Medium-->
+    <p class="text-lg-right"> tela &gt;= 992</p> <!--Large-->
+    <p class="text-xl-right"> tela &gt;= 1200</p> <!--Extra Large-->
+
+    <br><br>
+
+    <!-- Elemento Block para inline 
+         bg-success é cor de fundo, só para ver o inline acontecer 
+    -->
+    <h1 class="bg-success d-inline">Lorem ipsum dolor</h1>
+    <p class="bg-success d-inline">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+    <br><br>
+
+    <!-- Elemento Inline para Block -->
+    <span class="bg-success d-block">Lorem ipsum dolor 1</span>
+    <br>
+    <span class="bg-success d-block">Lorem ipsum dolor 2</span>
+
+
+    <br><br>
+    
+    <!-- Elemento Inline-Block -->
+    <div class="bg-warning">
+        <h3 class="bg-success d-inline-block">Lorem ipsum</h3>
+        <h3 class="bg-success d-inline-block" style="margin-top: 50px; width: 400px;">Lorem ipsum dolor</h3>
+    </div>
+
+
 
     
     <!-- Optional JavaScript -->
