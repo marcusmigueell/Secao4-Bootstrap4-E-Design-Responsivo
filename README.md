@@ -14,6 +14,7 @@ Criei o <header> para criar o cabeçalho da página.
 </header>
 
 Criei a <section> que será o corpo do site
+    - atribui uma classe chamada caixa e configurei ela no estilo.css para ter algumas configurações padrões para todas as <section>
     - usamos a class="row" para deixar como flexbox
     - dentro da <div class="row"> dividi o corpo da página em 2 div's a primeira será a de textos e a segunda com uma imagem. E para essa divisão coloquei 6 colunas para cada div com o código <div class="col-md-6 d-flex">, e o d-flex foi para converter em flexbox essa <div>
     - class="align-self-center" usado para centralizar o texto.
@@ -28,3 +29,7 @@ Criei a <section> que será o corpo do site
         fa-lg é pra aumentar o tamanho do ícone
     - coloquei a imagem de uma mulher ao lado do texto e essa classe class="col-md-6 d-none d-md-block" significa, col-md-6 é porque foi dividido a área em 2 blocos de 6 colunas cada d-none juntamente com d-md-block significa que a imagem irá aparecer a partir do tamanho md de tela, se for menor que md como sm, ou seja, em telas menores com o d-none a imagem não aparecerá.
 </section>
+
+basicamente todas as sections foi criadas da mesma forma.
+
+Criei o <footer> que é o rodapé, nele fiz algumas configurações padrões pelo estilo.css, como espaçamento entre os links, aliás no rodapé fiz uma sequência de links bem simples. E os ícones do rodapé eu tbm coloquei configurações diferente das configuraçõs dos icones que usei na seção home.
