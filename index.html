@@ -10,20 +10,121 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
-    <!-- Iconic CSS -->
-    <link rel="stylesheet" href="iconic/font/css/open-iconic-bootstrap.css">
+    <!-- Estilo CSS -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
 
     <!-- Fontawesome CSS-->
     <link rel="stylesheet" href="fontawesome/css/all.css">
 
-    <title>Bootstrap - Arquivo base</title>
+    <title>Bootstrap - Projeto Spotify</title>
+    <link rel="icon" href="imagens/favicon.png">
 
 </head>
 
 <body>
 
+    <header> <!--Inicio cabeçalho-->
+
+        <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
+
+            <div class="container">
+
+                <a href="index.html" class="navbar-brand">
+                    <img src="imagens/spotify.svg" width="142" alt="">
+                </a>
+
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+
+                    <i class="fas fa-bars text-white"></i>
+
+                </button>
+
+                <div class="collapse navbar-collapse" id="nav-principal">
+
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item"><a href="" class="nav-link">Premium</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Ajuda</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Baixar</a></li>
+                        <li class="nav-item divisor"></li>
+                        <li class="nav-item"><a href="" class="nav-link">Inscrever-se</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Entrar</a></li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header> <!--Fim cabeçalho-->
     
+
+    <section id="home" class="d-flex"> <!-- Inicio Home -->
+
+        <div class="container align-self-center"> <!-- Inicio Container -->
+
+            <div class="row"> <!-- Inicio Row -->
+
+                <div class="col-md-12 capa">
+
+                    <h1>Música para todos</h1>
+                    <a href="" class="btn btn-lg btn-custom btn-roxo">Aproveite o Spotify Free</a>
+                    <a href="" class="btn btn-lg btn-custom btn-branco">Obter Spotify Premium</a>
+
+                </div>
+
+            </div> <!-- Fim Row -->
+
+        </div> <!-- Fim Container -->
+
+    </section> <!-- Fim Home -->
+
+    <section id="servicos"> <!-- Inicio Serviços -->
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-6">
+                    
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <img src="imagens/img1.jpg" class="img-fluid">
+                        </div>
     
+                        <div class="col-md-6">
+                            <img src="imagens/img2.jpg" class="img-fluid">
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <img src="imagens/img3.jpg" class="img-fluid">
+                        </div>
+    
+                        <div class="col-md-6">
+                            <img src="imagens/img4.jpg" class="img-fluid">
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+                    textos
+                </div>
+
+            </div>
+
+        </div>
+
+    </section> <!-- Inicio Serviços -->
+
     
 
     <!-- Optional JavaScript -->
